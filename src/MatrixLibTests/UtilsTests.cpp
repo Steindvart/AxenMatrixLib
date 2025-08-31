@@ -2,6 +2,8 @@
 
 #include "TestsSuite.h"
 
+using namespace axen;
+
 /* NORMAL */
 
 TEST(utilsIsDoublesEq, eq0Normal)

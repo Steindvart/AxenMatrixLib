@@ -2,7 +2,7 @@
 
 #include "Matrix.h"
 
-namespace utils
+namespace axen::utils
 {
 
 double GetRandom(double min, double max);

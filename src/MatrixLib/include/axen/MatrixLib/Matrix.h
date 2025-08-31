@@ -3,6 +3,9 @@
 #include <cstddef>
 #include <vector>
 
+namespace axen
+{
+
 class Matrix
 {
  public:
@@ -80,3 +83,5 @@ class Matrix
   void CalcMatrix(const Matrix& matrix, Operation operation) noexcept;
   double CalcDeterminantLaplacian() const;
 };
+
+} // namespace axen

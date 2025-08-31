@@ -1,8 +1,9 @@
 #pragma once
 
-#include <MatrixLib/Matrix.h>
-#include <MatrixLib/Utils.h>
 #include <gtest/gtest.h>
+
+#include <axen/MatrixLib/Matrix.h>
+#include <axen/MatrixLib/Utils.h>
 
 namespace tests
 {

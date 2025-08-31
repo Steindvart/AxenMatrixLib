@@ -1,6 +1,7 @@
 #include "TestsSuite.h"
 
 using namespace tests;
+using namespace axen;
 
 /* NORMAL */
 

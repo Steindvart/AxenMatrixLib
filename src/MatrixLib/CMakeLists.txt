@@ -27,7 +27,7 @@ set(SOURCES
 add_library(MatrixLib STATIC ${SOURCES})
 
 target_include_directories(MatrixLib PRIVATE
-    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include/MatrixLib>
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include/axen/MatrixLib>
 )
 
 target_include_directories(MatrixLib PUBLIC
@@ -44,7 +44,7 @@ install(TARGETS MatrixLib
 
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/
     DESTINATION include/MatrixLib
-    FILES_MATCHING PATTERN "include/MatrixLib/*.h"
+    FILES_MATCHING PATTERN "include/axen/MatrixLib/*.h"
 )
 
 install(EXPORT MatrixLibTargets

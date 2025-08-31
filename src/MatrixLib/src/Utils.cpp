@@ -3,6 +3,9 @@
 #include <cmath>
 #include <cstdlib>
 
+namespace axen
+{
+
 // @todo - make as sepatate header only library
 
 bool utils::IsDoublesEq(double a, double b, double EPS)
@@ -31,3 +34,5 @@ void utils::FillRandom(Matrix& matrix, double min, double max)
     }
   }
 }
+
+}  // namespace axen

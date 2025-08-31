@@ -6,6 +6,9 @@
 
 #include "Utils.h"
 
+namespace axen
+{
+
 /* Construction, Distruction */
 
 Matrix::Matrix() : Matrix(1, 1)
@@ -459,3 +462,5 @@ void Matrix::Swap(Matrix& one, Matrix& second)
   std::swap(one.m_cols, second.m_cols);
   std::swap(one.m_data, second.m_data);
 }
+
+}  // namespace axen
