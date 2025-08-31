@@ -1,0 +1,6 @@
+{
+   CommonSuppresions
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:*alloc
+}

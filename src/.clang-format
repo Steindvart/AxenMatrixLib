@@ -1,0 +1,20 @@
+---
+Language: Cpp
+BasedOnStyle: Google
+ColumnLimit: 130
+IndentWidth: 2
+TabWidth: 2
+UseTab: Never
+BreakBeforeBraces: Allman
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+AlignAfterOpenBracket: Align
+SpaceBeforeAssignmentOperators: true
+SpaceAfterCStyleCast: true
+SpaceBeforeCpp11BracedList: true
+SpaceInEmptyParentheses: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceBeforeParens: ControlStatements
+AllowShortFunctionsOnASingleLine: None
+ContinuationIndentWidth: 2
+PointerAlignment: Right

@@ -1,0 +1,21 @@
+---
+# https://rocm.docs.amd.com/projects/llvm-project/en/latest/LLVM/clang-tools/html/clang-tidy/index.html
+
+
+Checks: >
+  -*,
+  bugprone-*,
+  clang-analyzer-*,
+  cert-*,
+  cppcoreguidelines-*,
+  hicpp-*,
+  modernize-*,
+  -modernize-use-trailing-return-type,
+  -modernize-use-nodiscard,
+  misc-*,
+  -misc-no-recursion,
+  performance-*,
+  portability-*,
+  readability-*,
+
+WarningsAsErrors: ''
