@@ -8,12 +8,13 @@ AxenMatrixLib is a compact and test-covered library for working with matrices in
 - **Arithmetic operations**: addition, subtraction, multiplication by scalars and matrices.
 - **Flexible size handling**: ability to dynamically change the number of rows and columns.
 - **Matrix comparison**: accounting for computational precision errors.
-- **Determinant calculation** (Determinant): using the Laplace algorithm.
-- **Inverse matrix** (Inverse)
-- **Transposition** (Transpose)
-- **Calculation of the matrix of cofactors** (Complements)
+- **Determinant calculation**: using the Laplace algorithm.
+- **Inverse matrix**
+- **Transposition**
+- **Calculation of the matrix of cofactors (complements)**
 - **Boundary case checking and exception throwing on errors**
-- **Full unit test coverage** (GoogleTest)
+- **Full unit test coverage**
+- **Integration and build by CMake**
 
 ## Ideas for Project Development
 1. Make the matrix class templated to support types that behave like numbers.
@@ -33,8 +34,8 @@ AxenMatrixLib is a compact and test-covered library for working with matrices in
 ### Build
 
 ```bash
-git clone https://github.com/yourname/MatrixLib.git
-cd MatrixLib
+git clone https://github.com/Steindvart/AxenMatrixLib.git
+cd AxenMatrixLib
 mkdir build && cd build
 cmake ..
 make
@@ -58,7 +59,7 @@ target_link_libraries(YourTarget PRIVATE MatrixLib)
 
 ### Example Usage
 ```cpp
-#include <MatrixLib/Matrix.h>
+#include <axen/MatrixLib/Matrix.h>
 
 int main() {
     Matrix a(3, 3);
