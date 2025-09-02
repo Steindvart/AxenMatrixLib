@@ -16,7 +16,7 @@ AxenMatrixLib is a compact and test-covered library for working with matrices in
 - **Full unit test coverage**
 - **Integration and build by CMake**
 
-## Ideas for Project Development
+## Ideas for project improvement
 1. Make the matrix class templated to support types that behave like numbers.
 2. Implement a more efficient determinant calculation algorithm, such as Gaussian elimination.
 3. Add support for atomic operations for thread safety.
